@@ -12,4 +12,5 @@ announced in class and on the course web page.
 
 > Date | Topic, Readings <br /> (do the readings before class) | CloudCoder Exercises <br /> (to be completed before class)
 > ---- | ------- | --------------------
-> May 20 | [Lecture 1: Introduction, Primitive Java](lectures/lecture01.html) |
+> Tues, May 20 | [Lecture 1: Introduction, Primitive Java](lectures/lecture01.html) |
+> Thurs, May 22 | [Lecture 2: Objects/References, Constructors, JUnit](lectures/lecture02.html) |
