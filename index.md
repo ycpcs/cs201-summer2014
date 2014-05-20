@@ -26,5 +26,4 @@ Welcome to the website for CS 201, Introduction to Computer Science II, at York 
 ## News
 
 * **May 20** - The [Schedule](schedule.html) and [Labs](labs/index.html) are now up to date for the first week.  Also, [Assignment 1](assign/assign01.html) has been posted with milestones due Tuesday, May 27th and Tuesday, June 3rd.
-* **May 20** - [Temporary link to lecture notes](http://faculty.ycp.edu/~dhovemey/fall2013/cs201/lecture/index.html)
 * **May 20** - Welcome!
