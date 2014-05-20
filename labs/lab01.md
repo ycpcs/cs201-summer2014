@@ -18,13 +18,13 @@ Getting Started
 
 Download [CS201\_Lab01.zip](CS201_Lab01.zip). Import it into Eclipse:
 
-> **File-\>Import...-\>General-\>Existing Projects into Workspace-\>Select Archive File**
+> **File&rarr;Import...&rarr;General&rarr;Existing Projects into Workspace&rarr;Select Archive File**
 
 You should see a project called **CS201\_Lab01** in the Package Explorer window.
 
 Run the program by right-clicking on the file **DogYears.java** in the **edu.ycp.cs201.dogyears** package, and then choosing
 
-> **Run As-\>Java Application**
+> **Run As&rarr;Java Application**
 
 Hints
 =====
@@ -46,7 +46,7 @@ From a web browser
 
 Save the project (**CS201\_Lab01**) to a zip file by right-clicking it and choosing
 
-> **Export...-\>Archive File**
+> **Export...&rarr;Archive File**
 
 Upload the saved zip file to the Marmoset server as **lab01**. The server URL is
 

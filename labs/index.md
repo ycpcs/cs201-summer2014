@@ -11,7 +11,8 @@ and submitting the labs will negatively impact your course grade.
 
 Week | Lab | File
 ---- | --- | ----
-Week 1 (May 19&ndash;23) | [Lab 1: Dog Years](lab01.html) | [CS101\_Lab201.zip](CS201_Lab01.zip)
+Week 1 (May 19&ndash;23) | [Lab 1: Dog Years](lab01.html) | [CS201\_Lab01.zip](CS201_Lab01.zip)
+Week 1 (May 19&ndash;23) | [Lab 2: Coins Class](lab02.html) | [CS201\_Lab02.zip](CS201_Lab02.zip)
 
 <!--
 > <table>
