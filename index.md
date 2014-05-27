@@ -9,7 +9,6 @@ Welcome to the website for CS 201, Introduction to Computer Science II, at York 
 
 ## Links
 
-<div class="linkcolumn">
 <ul>
   <li><a href="syllabus.html">Syllabus</a></li>
   <li><a href="schedule.html">Schedule/Readings</a></li>
@@ -20,8 +19,6 @@ Welcome to the website for CS 201, Introduction to Computer Science II, at York 
   <li><a href="https://cs.ycp.edu/cloudcoder">CloudCoder (practice problems)</a></li>
   <li><a href="practice/index.html">Practice Exams</a></li>
 </ul>
-</div>
-<div style="clear: both;"></div>
 
 ## News
 
