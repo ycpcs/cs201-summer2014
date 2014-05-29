@@ -27,7 +27,7 @@ The **Point**, **Circle**, and **Rectangle** classes represent points and shapes
 
 **Important**: in these classes, y values increase in the *down* direction, and decrease in the *up* direction:
 
-> ![image](figures/plane.png)
+> ![image](images/assign02/plane.png)
 
 Each of the three classes is partially specified. Each class has a number of methods, but each method has a body containing the statement
 

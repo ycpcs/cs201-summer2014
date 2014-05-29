@@ -18,7 +18,7 @@ You should copy the **Point**, **Circle**, and **Rectangle** classes from your *
 
 To run the program, right-click on **AngryGorillasView** and choose **Run As&rarr;Java Application**.
 
-> \<div class="callout"\>This is a substantial assignment. Do not wait until the last minute to start it!\</div\>
+> <div class="callout">This is a substantial assignment. Do not wait until the last minute to start it!</div>
 
 Angry Gorillas!
 ===============
@@ -29,7 +29,7 @@ In your implementation of the game, the player controls a gorilla who tries to t
 
 You can download our implementation of the game here:
 
-> <angryGorillas-obfuscated.jar>
+> [angryGorillas-obfuscated.jar](angryGorillas-obfuscated.jar)
 
 On Windows or Mac OS, you should be able to run the program by double-clicking on the jar file. You can also run it from the command line using the command
 
@@ -37,11 +37,11 @@ On Windows or Mac OS, you should be able to run the program by double-clicking o
 
 Here is an annotated screenshot showing the basic gameplay elements (click for full size):
 
-> \<a href="figures/angryGorillasScreenshot.png"\>\<img style="width: 50%;" src="figures/angryGorillasScreenshot.png" /\>\</a\>
+> <a href="images/assign03/angryGorillasScreenshot.png"><img style="width: 50%;" src="images/assign03/angryGorillasScreenshot.png" \></a>
 
 Each time the player launches a banana, it will either hit a building (damaging it) or hit the enemy gorilla. When the player hits the gorilla, ending the game, a final screen showing the number of throws is displayed:
 
-> \<a href="figures/angryGorillasScreenshot-end.png"\>\<img style="width: 50%;" src="figures/angryGorillasScreenshot-end.png" /\>\</a\>
+> <a href="images/assign03/angryGorillasScreenshot-end.png"><img style="width: 50%;" src="images/assign03/angryGorillasScreenshot-end.png" /></a>
 
 Model, View, Controller
 =======================
@@ -77,13 +77,13 @@ Submitting frequently is a good idea. If your code stops working, you can go bac
 
 Here is a suggested approach for this milestone.
 
-In the **AngryGorillasModel** class, add a field that is an **ArrayList\<Rectangle\>**. In the constructor, create an **ArrayList\<Rectangle\>** and assign a reference to it to this field. This object will store references to the **Rectangle** objects representing the buildings. Use the **BUILDING\_WIDTH** constant in **AngryGorillasModel** as the width of the buildings.
+In the **AngryGorillasModel** class, add a field that is an **ArrayList&lt;Rectangle&gt;**. In the constructor, create an **ArrayList&lt;Rectangle&gt;** and assign a reference to it to this field. This object will store references to the **Rectangle** objects representing the buildings. Use the **BUILDING\_WIDTH** constant in **AngryGorillasModel** as the width of the buildings.
 
 In **AngryGorillasController**, implement the **initModel** method to add rectangles to the model object's **ArrayList**. You can add a method to **AngryGorillasModel** that returns a reference to the **ArrayList** so that the controller can access it.
 
 In **AngryGorillasView**, add code to the **paintComponent** method to draw the grass at the bottom of the view, and draw a gray rectangle for each building. Use the **ArrayList** in the model object to get the rectangles.
 
-> \<div class="callout"\>Note that you will need to cast \<b\>double\</b\> values to \<b\>int\</b\> in order to use them as coordinates, widths, and heights when doing drawing operations with the \<b\>Graphics\</b\> object.\</div\>
+> <div class="callout">Note that you will need to cast <b>double</b> values to <b>int</b> in order to use them as coordinates, widths, and heights when doing drawing operations with the <b>Graphics</b> object.</div>
 
 At this point, you should be able to run the program and see buildings.
 
@@ -216,4 +216,4 @@ Save the project (**CS201\_Assign03**) to a zip file by right-clicking it and ch
 
 Upload the saved zip file to the Marmoset server as **assign03\_ms1** (Milestone 1) or **assign03\_ms2** (Milestone 2). The server URL is
 
-> <https://cs.ycp.edu/marmoset/>
+> [https://cs.ycp.edu/marmoset/](https://cs.ycp.edu/marmoset/)
