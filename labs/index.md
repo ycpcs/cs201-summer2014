@@ -23,7 +23,7 @@ Week 3 (June 2&ndash;6) | [Lab 9: Comparable, Sorting](lab09.html) | [CS201\_Lab
 Week 4 (June 9&ndash;13) | [Lab 10: Using Generic Containers and Algorithms](lab10.html) | [CS201\_Lab10.zip](CS201_Lab10.zip)
 Week 4 (June 9&ndash;13) | [Lab 11: Functors](lab11.html) | [CS201\_Lab11.zip](CS201_Lab11.zip)
 Week 5 (June 16&ndash;20) | [Lab 12: Benchmarking ArrayList](lab12.html) | [CS201\_Lab12.zip](CS201_Lab12.zip)
-Week 6 (June 16&ndash;20) | [Lab 13: Iterators, Interleaving](lab13.html) | [CS201\_Lab13.zip](CS201_Lab13.zip)
+Week 5 (June 16&ndash;20) | [Lab 13: Iterators, Interleaving](lab13.html) | [CS201\_Lab13.zip](CS201_Lab13.zip)
 
 <!--
 > <table>
