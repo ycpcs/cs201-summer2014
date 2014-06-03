@@ -17,6 +17,8 @@ Week 1 (May 19&ndash;23) | [Lab 3: Arrays](lab03.html) | [CS201\_Lab03.zip](CS20
 Week 2 (May 26&ndash;30) | [Lab 4: Text File I/O](lab04.html) | [CS201\_Lab04.zip](CS201_Lab04.zip)
 Week 2 (May 26&ndash;30) | [Lab 5: Exceptions](lab05.html) | [CS201\_Lab05.zip](CS201_Lab05.zip)
 Week 2 (May 26&ndash;30) | [Lab 6: GUIs](lab06.html) | [CS201\_Lab06.zip](CS201_Lab06.zip)
+Week 3 (June 2&ndash;6) | [Lab 7: Inheritance and Polymorphism](lab07.html) | [CS201\_Lab07.zip](CS201_Lab07.zip)
+Week 3 (June 2&ndash;6) | [Lab 8: Inheriting Fields and Methods](lab08.html) | [CS201\_Lab08.zip](CS201_Lab08.zip)
 
 <!--
 > <table>

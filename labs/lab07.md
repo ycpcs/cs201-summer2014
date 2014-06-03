@@ -1,9 +1,9 @@
-restindex  
-crumb: Lab 7 format: rest page-title: Lab 7: Inheritance and Polymorphism encoding: utf-8 output-encoding: None initialheaderlevel: 2
+---
+layout: default
+title: "Lab 7: Inheritance and Polymorphism"
+---
 
-/restindex
-
-Start by downloading <CS201_Lab07.zip> and importing it into Eclipse. You should see a project called **CS201\_Lab07**.
+Start by downloading [CS201\_Lab07.zip](CS201_Lab07.zip) and importing it into Eclipse. You should see a project called **CS201\_Lab07**.
 
 Your Task
 =========
@@ -33,7 +33,7 @@ From a web browser
 
 Save the project (**CS201\_Lab07**) to a zip file by right-clicking it and choosing
 
-> **Export...-\>Archive File**
+> **Export...&rarr;Archive File**
 
 Upload the saved zip file to the Marmoset server as **lab07**. The server URL is
 

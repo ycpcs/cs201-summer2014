@@ -14,7 +14,19 @@ Write a program that "remembers" the name of the last person to run the program.
 
 Here is an example session showing what should happen the *first* time someone runs the program (user input in **bold**):
 
+<pre>
+No one has run this program before!
+What is your name? <b>Alice</b>
+Ok, Alice, I'm writing your name to a file
+</pre>
+
 An example session showing what happens the *second* time someone runs the program (user input in **bold**):
+
+<pre>
+The last person to run the program was Alice
+What is your name? <b>Bob</b>
+Ok, Bob, I'm writing your name to a file
+</pre>
 
 The next time someone runs the program, it will print Bob's name as the last person to run the program.
 

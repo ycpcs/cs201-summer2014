@@ -1,14 +1,14 @@
-restindex  
-crumb: Lab 8 format: rest page-title: Lab 8: Inheriting Fields and Methods encoding: utf-8 output-encoding: None initialheaderlevel: 2
-
-/restindex
+---
+layout: default
+title: "Lab 8: Inheriting Fields and Methods"
+---
 
 Getting Started
 ===============
 
-Download <CS201_Lab08.zip> and import it into your Eclipse workspace (**File-\>Import-\>General-\>Existing projects into workspace-\>Archive file**.) You should see a project called **CS201\_Lab08** in the Package Explorer.
+Download [CS201\_Lab08.zip](CS201_Lab08.zip) and import it into your Eclipse workspace (**File&rarr;Import&rarr;General&rarr;Existing projects into workspace&rarr;Archive file**.) You should see a project called **CS201\_Lab08** in the Package Explorer.
 
-Right click on **StartLab.java** and choose **Run As-\>Java Application**. In the console window, type **yes** when prompted. When the program completes, right click on the project (**CS201\_Lab08**) and choose **Refresh**. You should see your code from [Lab 7](lab7.html).
+Right click on **StartLab.java** and choose **Run As&rarr;Java Application**. In the console window, type **yes** when prompted. When the program completes, right click on the project (**CS201\_Lab08**) and choose **Refresh**. You should see your code from [Lab 7](lab7.html).
 
 In this lab, you will add the capability to the classes in the **Vehicle** class hierarchy to represent the vehicle's maximum speed, and use this feature to add a capability to the **Trip** class to determine a vehicle's average speed on a particular trip.
 
@@ -51,8 +51,10 @@ Re-run all of the tests to make sure they still pass.
 
 **(6)** Add the following method to the **Trip** class:
 
-    public double findAverageSpeed(Vehicle v) {
-        ...
+{% highlight java %}
+public double findAverageSpeed(Vehicle v) {
+    ...
+{% endhighlight %}
 
 This method determines the average speed of a given **Vehicle** traversing the sequence of terrain represented by the **Trip** object on which the method is called, assuming that the vehicle always moves at its maximum speed. It should compute the total time required for the trip. Let's say that the trip is composed of terrain types
 
@@ -76,38 +78,40 @@ Then, the average speed for the trip is
 
 For example:
 
-    // in CarTest
+{% highlight java %}
+// in CarTest
 
-    private static final double DELTA = 0.00001;
+private static final double DELTA = 0.00001;
 
-    private Trip exampleTrip;
-    private Car myCar;
+private Trip exampleTrip;
+private Car myCar;
 
-    protected void setUp() {
-      exampleTrip = new Trip(3);
-      exampleTrip.setHop(0, Terrain.AIRPORT);
-      exampleTrip.setHop(1, Terrain.ROAD);
-      exampleTrip.setHop(2, Terrain.MARINA);
+protected void setUp() {
+  exampleTrip = new Trip(3);
+  exampleTrip.setHop(0, Terrain.AIRPORT);
+  exampleTrip.setHop(1, Terrain.ROAD);
+  exampleTrip.setHop(2, Terrain.MARINA);
 
-      myCar = new Car(100.0); // the Car's maximum speed is 100
-    }
+  myCar = new Car(100.0); // the Car's maximum speed is 100
+}
 
-    public void testGetSpeed() {
-      // full speed over road
-      assertEquals( 100.0, myCar.getSpeed(Terrain.ROAD), DELTA );
+public void testGetSpeed() {
+  // full speed over road
+  assertEquals( 100.0, myCar.getSpeed(Terrain.ROAD), DELTA );
 
-      // one-quarter speed through an airport
-      assertEquals( 0.25 * 100.0, myCar.getSpeed(Terrain.AIRPORT), DELTA );
+  // one-quarter speed through an airport
+  assertEquals( 0.25 * 100.0, myCar.getSpeed(Terrain.AIRPORT), DELTA );
 
-      // one-quarter speed through a marina
-      assertEquals( 0.25 * 100.0, myCar.getSpeed(Terrain.MARINA), DELTA );
-    }
+  // one-quarter speed through a marina
+  assertEquals( 0.25 * 100.0, myCar.getSpeed(Terrain.MARINA), DELTA );
+}
 
-    public void testFindAverageSpeed() throws Exception {
-      double dist = 3.0;
-      double time = (1.0/(.25 * 100.0)) + (1.0 / 100.0) + (1.0 / (.25 * 100.0));
-      assertEquals( dist /  time, exampleTrip.findAverageSpeed(myCar), DELTA);
-    }
+public void testFindAverageSpeed() throws Exception {
+  double dist = 3.0;
+  double time = (1.0/(.25 * 100.0)) + (1.0 / 100.0) + (1.0 / (.25 * 100.0));
+  assertEquals( dist /  time, exampleTrip.findAverageSpeed(myCar), DELTA);
+}
+{% endhighlight %}
 
 Submitting
 ==========
@@ -124,7 +128,7 @@ From a web browser
 
 Save the project (**CS201\_Lab08**) to a zip file by right-clicking it and choosing
 
-> **Export...-\>Archive File**
+> **Export...&rarr;Archive File**
 
 Upload the saved zip file to the Marmoset server as **lab08**. The server URL is
 
