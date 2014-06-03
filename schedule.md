@@ -16,7 +16,7 @@ announced in class and on the course web page.
 > Week 6 (June 23&ndash;27) | [Lecture 14: Collections, Iterators](lectures/lecture14.html), 6.1-6.3 <br> [Lecture 15: Generic Algorithms](lectures/lecture15.html), 6.4 <br> **Exam 1** |
 > Week 7 (June 30&ndash;July 4) |  |
 > Week 8 (July 7&ndash;11) | [Lecture 16: Lists](lectures/lecture16.html), 6.5 <br> [Lecture 17: Parallel Programming with Threads](lectures/lecture17.html) | 
-> Week 9 (July 14&ndash;18) | Lecture 18: Stacks and Queues, 6.6 <br> Lecture 19: Sets and Maps, 6.7-6.8 | 
+> Week 9 (July 14&ndash;18) | [Lecture 18: Stacks and Queues](lectures/lecture18.html), 6.6 <br> Lecture 19: Sets and Maps, 6.7-6.8 | 
 > Week 10 (July 21&ndash;25) | Lecture 20: Recursion, 7.1, 7.3 <br> Lecture 21: Proof by Induction, 7.2 |
 > Week 11 (July 28&ndash;Aug 1) | Lecture 22: Dynamic Programming, 7.6 <br> Lecture 23: Insertion and Shell Sort, 8.1-8.3  |
 > Week 12 (Aug 4&ndash;8) | Lecture 25: Singly and Doubly-Linked Lists, 17.1-17.3 <br> Lecture 24: Merge and Quick Sort, 8.5-8.6 |
