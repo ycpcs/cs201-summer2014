@@ -16,11 +16,11 @@ The game board is 300 pixels wide by 300 pixels high. So, each square of the boa
 
 Here is what the game board should look like when the program starts:
 
-> ![image](figures/lab6-ticTacToeStart.png)
+> ![image](images/lab06/ticTacToeStart.png)
 
 When the left mouse button is clicked in a square, a green square should be placed. When the right mouse button is clicked in a square, a blue circle should be placed. Here is what the game board should look like after a few pieces have been placed:
 
-> ![image](figures/lab6-ticTacToePlay.png)
+> ![image](images/lab06/ticTacToePlay.png)
 
 You do not need to be concerned with checking the legality of a move (i.e., whether there is a piece there already), or with detecting when the game is finished, although if you finish early you can try implementing these features for fun.
 
