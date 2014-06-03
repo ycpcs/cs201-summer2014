@@ -3,6 +3,8 @@ layout: default
 title: "Lecture 12: Analysis of Algorithms"
 ---
 
+You may also refer to the [course notes](../notes/analysisOfAlgorithms.html).
+
 Analysis of algorithms
 ======================
 
