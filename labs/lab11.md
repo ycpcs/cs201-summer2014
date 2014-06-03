@@ -31,15 +31,15 @@ public static<E> void applyToArray(E[] arr, Functor<E> functor) {
 }
 {% endhighlight %}
 
-The **applyToArray** method takes an array of elements of type **E** and a **Functor\<E\>**, and calls the functor's **apply** method on each element of the array. This function may be used to perform a computation on all of the elements in an array.
+The **applyToArray** method takes an array of elements of type **E** and a **Functor&lt;E&gt;**, and calls the functor's **apply** method on each element of the array. This function may be used to perform a computation on all of the elements in an array.
 
 Your Task
 =========
 
 Your task is to implement two classes which implement the **Functor** interface:
 
-1.  **SumIntFunctor**, which implements **Functor\<Integer\>**. It computes the sum of all of the **Integer** values to which it is applied.
-2.  **CountJFunctor**, which implements **Functor\<String\>**. It computers the number of occurrences of the characters 'J' and 'j' in the **String** values to which it is applied.
+1.  **SumIntFunctor**, which implements **Functor&lt;Integer&gt;**. It computes the sum of all of the **Integer** values to which it is applied.
+2.  **CountJFunctor**, which implements **Functor&lt;String&gt;**. It computers the number of occurrences of the characters 'J' and 'j' in the **String** values to which it is applied.
 
 The **SumIntFunctorTest** and **CountJFunctorTest** classes implement JUnit tests for both classes.
 
