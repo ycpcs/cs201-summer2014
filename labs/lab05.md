@@ -30,7 +30,23 @@ Assume that the file **myFile.txt** contains the following contents:
 
 Here is an example session showing a file being printed successfully (user input in **bold**):
 
+<pre>
+Which file? <b>myFile.txt</b>
+Oh freddled gruntbuggly
+Thy micturations are to me
+As plurdled gabbleblotchits on a lurgid bee.
+Groop I implore thee, my foonting turlingdromes
+And hooptiously drangle me with crinkly bindlewurdles,
+Or I will rend thee in the gobberwarts with my blurglecruncheon,
+See if I don't!
+</pre>
+
 Here is another example session showing what happens when the user enters the name of a nonexistent file:
+
+<pre>
+Which file? <b>nonexistent.txt</b>
+Error: nonexistent.txt (No such file or directory)
+</pre>
 
 Hints
 =====
