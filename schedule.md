@@ -12,7 +12,7 @@ announced in class and on the course web page.
 > Week 2 (May 26&ndash;30) | [Lecture 4: File I/O, Exceptions](lectures/lecture04.html), 2.5&ndash;2.6 <br> [Lecture 5: Exceptions](lectures/lecture05.html), 2.5 <br> [Lecture 6: GUIs](lectures/lecture06.html)
 > Week 3 (June 2&ndash;6) | [Lecture 7: Inheritance](lectures/lecture07.html), 4.1&ndash;4.2 <br> [Lecture 8: ArrayList, Inheritance (continued)](lectures/lecture08.html), 4.3&ndash;4.4 <br> [Lecture 9: Type casts, instanceof, Object class, Interfaces](lectures/lecture09.html)
 > Week 4 (June 9&ndash;13) | [Lecture 10: Generic methods and classes](lectures/lecture10.html), 4.5-4.7 <br> [Lecture 11: Generic methods, functors](lectures/lecture11.html), 4.8
-> Week 5 (June 16&ndash;20) | Lecture 12: Analysis of Algorithms, 5.1-5.3 <br> Lecture 13: Big-O, 5.4-5.8
+> Week 5 (June 16&ndash;20) | [Lecture 12: Analysis of Algorithms](lectures/lecture12.html), 5.1-5.3 <br> Lecture 13: Big-O, 5.4-5.8
 > Week 6 (June 23&ndash;27) | Lecture 14: Collections, Iterators, 6.1-6.3 <br> Lecture 15: Generic Algorithms, 6.4 <br> **Exam 1** |
 > Week 7 (June 30&ndash;July 4) |  |
 > Week 8 (July 7&ndash;11) | Lecture 16: Lists, 6.5 <br> Lecture 17: Parallel Programming with Threads | 
