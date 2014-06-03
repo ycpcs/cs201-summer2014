@@ -1,9 +1,9 @@
-restindex  
-crumb: Lab 9 format: rest page-title: Lab 9: Comparable, Sorting encoding: utf-8 output-encoding: None initialheaderlevel: 2
+---
+layout: default
+title: "Lab 9: Comparable, Sorting"
+---
 
-/restindex
-
-Start by downloading <CS201_Lab09.zip> and importing it into Eclipse. You should see a project called **CS201\_Lab09**.
+Start by downloading [CS201\_Lab09.zip](CS201_Lab09.zip) and importing it into Eclipse. You should see a project called **CS201\_Lab09**.
 
 Your Task
 =========
@@ -39,15 +39,17 @@ As one of the objects in your test fixture, create an array of **Card** objects.
 
 Write a test method to sort the array. It should look something like this:
 
-    public void testSort() {
-      Arrays.sort(myArray);
+{% highlight java %}
+public void testSort() {
+  Arrays.sort(myArray);
 
-      // now verify that the elements of the array are in sorted order
-      assertEquals(lowestCard, myArray[0]);
-      assertEquals(secondLowestCard, myArray[1]);
+  // now verify that the elements of the array are in sorted order
+  assertEquals(lowestCard, myArray[0]);
+  assertEquals(secondLowestCard, myArray[1]);
 
-      // etc...
-    }
+  // etc...
+}
+{% endhighlight %}
 
 Submitting
 ==========
@@ -64,7 +66,7 @@ From a web browser
 
 Save the project (**CS201\_Lab09**) to a zip file by right-clicking it and choosing
 
-> **Export...-\>Archive File**
+> **Export...&rarr;Archive File**
 
 Upload the saved zip file to the Marmoset server as **lab9**. The server URL is
 
