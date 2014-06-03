@@ -14,6 +14,9 @@ Week | Lab | File
 Week 1 (May 19&ndash;23) | [Lab 1: Dog Years](lab01.html) | [CS201\_Lab01.zip](CS201_Lab01.zip)
 Week 1 (May 19&ndash;23) | [Lab 2: Coins Class](lab02.html) | [CS201\_Lab02.zip](CS201_Lab02.zip)
 Week 1 (May 19&ndash;23) | [Lab 3: Arrays](lab03.html) | [CS201\_Lab03.zip](CS201_Lab03.zip)
+Week 2 (May 26&ndash;30) | [Lab 4: Text File I/O](lab04.html) | [CS201\_Lab04.zip](CS201_Lab04.zip)
+Week 2 (May 26&ndash;30) | [Lab 5: Exceptions](lab05.html) | [CS201\_Lab05.zip](CS201_Lab05.zip)
+Week 2 (May 26&ndash;30) | [Lab 6: GUIs](lab06.html) | [CS201\_Lab06.zip](CS201_Lab06.zip)
 
 <!--
 > <table>
