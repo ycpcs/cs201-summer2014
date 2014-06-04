@@ -80,3 +80,8 @@ tr, th, td {
 a:visited {
 	color: #303;
 }
+
+/* Minor tweak to get the CC image link to align nicely with the footer text */
+a.cc-img {
+	vertical-align: -2px;
+}
