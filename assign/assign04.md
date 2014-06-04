@@ -119,33 +119,41 @@ You can add a **toString** method to classes where you want to provide a way to 
 
 The **toString** method is defined in the **java.lang.Object** class as follows:
 
-> public String toString()
+{% highlight java %}
+public String toString()
+{% endhighlight %}
 
 I defined the **toString** method of the **Card** class as
 
-    public String toString() {
-        return rank.toString() + " of " + suit.toString();
-    }
+{% highlight java %}
+public String toString() {
+    return rank.toString() + " of " + suit.toString();
+}
+{% endhighlight %}
 
 I defined the **toString** method of the **Rank** enumeration as
 
-    public String toString() {
-        if (this == TWO) {
-            return "2";
-        } else if (this == THREE) {
-            return "3";
-        }
-        // ... etc ...
+{% highlight java %}
+public String toString() {
+    if (this == TWO) {
+        return "2";
+    } else if (this == THREE) {
+        return "3";
+    }
+    // ... etc ...
+{% endhighlight %}
 
 Similarly, the **toString** method in the **Suit** enumeration can be defined as
 
-    public String toString() {
-        if (this == CLUBS) {
-            return "♣";
-        } else if (this == DIAMONDS) {
-            return "♦";
-        }
-        // ... etc ...
+{% highlight java %}
+public String toString() {
+    if (this == CLUBS) {
+        return "♣";
+    } else if (this == DIAMONDS) {
+        return "♦";
+    }
+    // ... etc ...
+{% endhighlight %}
 
 Defining **toString** methods makes it easy to include concise representations of card objects in the program output.
 
