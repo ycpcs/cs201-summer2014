@@ -20,4 +20,4 @@ announced in class and on the course web page.
 > Week 10 (July 21&ndash;25) | [Lecture 20: Recursion](lectures/lecture20.html), 7.1, 7.3 <br> [Lecture 21: Proof by Induction](lectures/lecture21.html), 7.2 |
 > Week 11 (July 28&ndash;Aug 1) | [Lecture 22: Memoization and Dynamic Programming](lectures/lecture22.html), 7.6 <br> [Lecture 23: Insertion and Shell Sorts](lectures/lecture23.html), 8.1-8.3  |
 > Week 12 (Aug 4&ndash;8) |  [Lecture 24: Merge and Quick Sort](lectures/lecture24.html), 8.5-8.6 <br> [Lecture 25: Singly and Doubly-Linked Lists](lectures/lecture25.html), 17.1-17.3 |
-> Week 13 | **Exam 2** | 
+> Week 13 (Aug 11&ndash;15) | **Exam 2** <br> **Final Exam** | 
