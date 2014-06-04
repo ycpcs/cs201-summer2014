@@ -23,6 +23,7 @@ Welcome to the website for CS 201, Introduction to Computer Science II, at York 
 
 ## News
 
+* **Jun 4** - All of the lecture notes are now available from the [Schedule](schedule.html) page.
 * **Jun 3** - The [Schedule](schedule.html) is filled in, but some of the lecture notes aren't available yet.  They will be available very soon.
 * **May 29** - [Assignment 3](assign/assign03.html) has been posted, with milestones due Tuesday, June 17th and Tuesday, June 24th.
 * **May 29** - The [Example code](examples/index.html) page will has example code discussed in class.  The exception handling demo from today's discussion is posted there.
