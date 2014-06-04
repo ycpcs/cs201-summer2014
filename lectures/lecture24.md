@@ -112,7 +112,7 @@ The O(N log N) worst case upper bound on merge sort stems from the fact that mer
 
 Consider the "tree" of recursive calls that is required to merge sort a sequence containing N elements. The root of the tree, which is the top-level call, needs to merge N elements. The second level of the tree, which recursively sorts the two halves of the overall sequence, needs to merge N/2 elements twice (once for each half). The third level of the tree, which recursively sorts the four quarters of the overall sequence, needs to merge N/4 elements four times (once for each quarter). In general, the amount of work done at each level of the tree is O(N).
 
-The overall tree of recursive calls will have log\<sub\>2\</sub\> N levels. This is because if you start at any integer N, and repeatedly divide by 2, you will reach a value &le; 1 in log\<sub\>2\</sub\> N steps. Since the base case of the algorithm occurs when N is &le; 1, that is how many levels the tree of recursive calls will have.
+The overall tree of recursive calls will have log<sub>2</sub> N levels. This is because if you start at any integer N, and repeatedly divide by 2, you will reach a value &le; 1 in log<sub>2</sub> N steps. Since the base case of the algorithm occurs when N is &le; 1, that is how many levels the tree of recursive calls will have.
 
 Thus, the overall amount of work done is O(N log N).
 
@@ -137,7 +137,7 @@ Analysis
 
 If the choice of pivot always results in equal-sized (or close to equal-sized) partitions before and after the pivot, then quick sort will run in O(N log N) time. (The argument is the same as for Merge Sort.)
 
-Unfortunately, there is no way to guarantee that the pivot will result in this outcome, unless we sort the entire sequence! Choosing a bad pivot---either the min or max element in the region being sorted---would result in subproblems of size 0 and size N-1. If a bad pivot is chosen at every step, then the total running time will be O(N\<sup\>2\</sup\>). (The problem is that we are only eliminating one element, the pivot, at each step!)
+Unfortunately, there is no way to guarantee that the pivot will result in this outcome, unless we sort the entire sequence! Choosing a bad pivot---either the min or max element in the region being sorted---would result in subproblems of size 0 and size N-1. If a bad pivot is chosen at every step, then the total running time will be O(N<sup>2</sup>). (The problem is that we are only eliminating one element, the pivot, at each step!)
 
 One way to address the problem of pivot selection is to sample a small number of elements from the region, and choose the median element as the pivot. While this does not guarantee that the pivot will result in equal sized subproblems, it makes it extremely unlikely that the subproblems will differ greatly in size. For this reason, the expected (average) case running time of quick sort is O(N log N).
 
