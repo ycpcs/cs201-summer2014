@@ -115,7 +115,7 @@ toString methods
 
 You can add a **toString** method to classes where you want to provide a way to convert objects into strings for printing.
 
-\<div class="callout"\> To use the card suit characters (♣,♦,♥,♠), you will need to change the text encoding of your Java source files to UTF-8. See [this StackOverflow question](http://stackoverflow.com/questions/200691/how-to-use-special-chars-in-java-eclipse) for details. \</div\>
+<div class="callout"> To use the card suit characters (♣,♦,♥,♠), you will need to change the text encoding of your Java source files to UTF-8. See [this StackOverflow question](http://stackoverflow.com/questions/200691/how-to-use-special-chars-in-java-eclipse) for details. </div>
 
 The **toString** method is defined in the **java.lang.Object** class as follows:
 
