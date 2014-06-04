@@ -199,8 +199,8 @@ Here are some of the methods I added to my **Deck** class:
 -   public void setExposeIndex(int index)
 -   public int getExposeIndex()
 -   public int indexOfTopCard()
--   public ArrayList\<Card\> removeCards(int index)
--   public void placeCards(ArrayList\<Card\> cardsToPlace)
+-   public ArrayList&lt;Card&gt; removeCards(int index)
+-   public void placeCards(ArrayList&lt;Card&gt; cardsToPlace)
 
 The "expose index" of a deck is the index of the first exposed card in the deck. For example, if a deck has 6 cards and the expose index is 3, then the cards with indices 3, 4, and 5 are exposed.
 
