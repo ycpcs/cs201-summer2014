@@ -23,7 +23,7 @@ To run the program, right-click on **AngryGorillasView** and choose **Run As&rar
 Angry Gorillas!
 ===============
 
-In this assignment, you will implement a game based on the classic [QBasic](http://en.wikipedia.org/wiki/QBasic) game [gorilla.bas](http://en.wikipedia.org/wiki/Gorillas_(video_game)), included in MS-DOS 5.0 in 1990.
+In this assignment, you will implement a game based on the classic [QBasic](http://en.wikipedia.org/wiki/QBasic) game [gorilla.bas](http://en.wikipedia.org/wiki/Gorillas_(video_game\)), included in MS-DOS 5.0 in 1990.
 
 In your implementation of the game, the player controls a gorilla who tries to throw explosive bananas at an enemy gorilla. There are several buildings in the way, making hitting the enemy gorilla more challenging. The player controls the trajectory of the banana by clicking and then dragging the mouse pointer: the direction and velocity of the banana are based on the points where the original mouse click and the release occur. The gameplay may remind you of [similar game that has enjoyed some popularity in recent years](http://www.angrybirds.com/).
 
