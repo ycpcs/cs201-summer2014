@@ -21,7 +21,26 @@ Code is provided which
 
 An example text file, **gettysburg.txt**, is provided for you to use when testing your program.
 
-Here is partial output from running the program on this file:
+Here is partial output from running the program on this file (user input in **bold**):
+
+<pre>
+
+
+Read which file? <b>gettysburg.txt</b>
+Word counts:
+a          : =======
+above      : =
+add        : =
+advanced   : =
+ago        : =
+all        : =
+altogether : =
+and        : ======
+any        : =
+are        : ===
+as         : =
+battle     : =
+</pre>
 
 The length of the "bar" following each word indicates the number of occurrences of that word. For example, the word "and" occurred 6 times, so there are six "=" characters making up the bar for that word.
 
