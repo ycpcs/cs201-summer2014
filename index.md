@@ -23,6 +23,7 @@ Welcome to the website for CS 201, Introduction to Computer Science II, at York 
 
 ## News
 
+* **Jun 5** - A first practice exam has been posted on the [Practice Exams](practice/index.html) page.
 * **Jun 5** - All of the labs have been posted on the [Labs](labs/index.html) page.
 * **Jun 4** - [Assignment 4](assign/assign04.html) has been posted, with milestones due July 1st and July 15th.
 * **Jun 4** - All of the lecture notes are now available from the [Schedule](schedule.html) page.
