@@ -3,7 +3,7 @@ layout: default
 title: "Labs"
 ---
 
-This page lists the in-class lab activities.
+This page lists the lab activities.
 
 Although labs are not graded, they are part of the quizzes, attendance,
 and participation component of the course grade.  Not completing
