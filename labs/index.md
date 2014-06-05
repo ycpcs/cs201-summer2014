@@ -31,6 +31,6 @@ Week 9 (July 14&ndash;18) | [Lab 17: Palindromes](lab17.html) | [CS201\_Lab17.zi
 Week 9 (July 14&ndash;18) | [Lab 18: Word Count](lab18.html) | [CS201\_Lab18.zip](CS201_Lab18.zip)
 Week 10 (July 21&ndash;25) | [Lab 19: Recursion](lab19.html) | [CS201\_Lab19.zip](CS201_Lab19.zip)
 Week 10 (July 21&ndash;25) | [Lab 20: Advanced Recursion](lab20.html) | [CS201\_Lab20.zip](CS201_Lab20.zip)
-Week 10 (July 21&ndash;25) | [Lab 21: Proof By Induction](lab21.html) | [CS201\_Lab21.zip](CS201_Lab21.zip)
+Week 10 (July 21&ndash;25) | [Lab 21: Proof By Induction](lab21.html) | n/a
 Week 11 (July 28&ndash;Aug 1) | [Lab 22: Binomial Coefficient](lab22.html) | [CS201\_Lab22.zip](CS201_Lab22.zip)
 Week 11 (July 28&ndash;Aug 1) | [Lab 23: Shell Sort](lab23.html) | [CS201\_Lab23.zip](CS201_Lab23.zip)
