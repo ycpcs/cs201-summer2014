@@ -48,7 +48,7 @@ Note that it will probably take a few minutes for the entire benchmark to comple
 
 Once you have collected your data, plot it in Excel. Your plot should look something like this:
 
-> ![image](figures/lab15-benchPlot.png)
+> ![image](images/lab15/benchPlot.png)
 
 Copy your Excel file into the Eclipse project. (Put it in the subdirectory of your Eclipse workspace called **CS201\_Lab15**, and in Eclipse right-click on the project and choose **Refresh**.)
 
