@@ -24,8 +24,6 @@ An example text file, **gettysburg.txt**, is provided for you to use when testin
 Here is partial output from running the program on this file (user input in **bold**):
 
 <pre>
-
-
 Read which file? <b>gettysburg.txt</b>
 Word counts:
 a          : =======
