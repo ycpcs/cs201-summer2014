@@ -13,19 +13,19 @@ Your Task
 
 Your task is to implement the five static methods defined in the **Algorithms** class.
 
-**static\<E extends Comparable\<E\>\> E findMin(Collection\<E\> c)**  
-This method should return the minimum (smallest) value in the given **Collection**. Since each element belongs to a class implementing the **Comparable\<E\>** interface, you can use the **compareTo** method to compare element values.
+**static&lt;E extends Comparable&lt;E&gt;&gt; E findMin(Collection&lt;E&gt; c)**  
+This method should return the minimum (smallest) value in the given **Collection**. Since each element belongs to a class implementing the **Comparable&lt;E&gt;** interface, you can use the **compareTo** method to compare element values.
 
-**static\<E extends Comparable\<E\>\> E findMax(Collection\<E\> c)**  
+**static&lt;E extends Comparable&lt;E&gt;&gt; E findMax(Collection&lt;E&gt; c)**  
 Like **findMin** above, but return the maximum element value instead of the minimum.
 
-**static\<E\> E findMin(Collection\<E\> c, Comparator\<E\> comp)**  
+**static&lt;E&gt; E findMin(Collection&lt;E&gt; c, Comparator&lt;E&gt; comp)**  
 Like the version of **findMin** that just takes a **Collection**, but uses the **Comparator** parameter to do the element comparisons.
 
-**static\<E\> E findMax(Collection\<E\> c, Comparator\<E\> comp)**  
+**static&lt;E&gt; E findMax(Collection&lt;E&gt; c, Comparator&lt;E&gt; comp)**  
 Like **findMin** above, but return the maximum element value instead of the minimum.
 
-**static\<E\> int sequentialSearch(List\<E\> list, E searchVal)**  
+**static&lt;E&gt; int sequentialSearch(List&lt;E&gt; list, E searchVal)**  
 Do a sequential search of the given **List**. Return the index of the first occurrence of an element comparing as equal to **searchVal**, or -1 if **searchVal** does not occur in the list. Use the **equals** method to do the comparisons.
 
 A JUnit test class, **AlgorithmsTest**, is provided.
@@ -35,7 +35,7 @@ Super-duper extra challenge
 
 *Optional*: if you finish the above tasks, and your brain isn't completely twisted in knots, rewrite the four **findMin** and **findMax** methods so that three of them are implemented by making a call to the fourth.
 
-**Hint**: Leave your **static\<E\> E findMin(Collection\<E\> c, Comparator\<E\> comp)** as it is. Change the other methods to call it.
+**Hint**: Leave your **static&lt;E&gt; E findMin(Collection&lt;E&gt; c, Comparator&lt;E&gt; comp)** as it is. Change the other methods to call it.
 
 **Another hint**: Defining one or more new **Comparator** classes will help.
 
