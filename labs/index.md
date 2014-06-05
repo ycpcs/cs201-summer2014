@@ -24,6 +24,8 @@ Week 4 (June 9&ndash;13) | [Lab 10: Using Generic Containers and Algorithms](lab
 Week 4 (June 9&ndash;13) | [Lab 11: Functors](lab11.html) | [CS201\_Lab11.zip](CS201_Lab11.zip)
 Week 5 (June 16&ndash;20) | [Lab 12: Benchmarking ArrayList](lab12.html) | [CS201\_Lab12.zip](CS201_Lab12.zip)
 Week 5 (June 16&ndash;20) | [Lab 13: Iterators, Interleaving](lab13.html) | [CS201\_Lab13.zip](CS201_Lab13.zip)
+Week 6 (June 23&ndash;27) | [Lab 14: Generic Algorithms](lab14.html) | [CS201\_Lab14.zip](CS201_Lab14.zip)
+Week 6 (June 23&ndash;27) | [Lab 15: List Reversal](lab15.html) | [CS201\_Lab15.zip](CS201_Lab15.zip)
 
 <!--
 > <table>
