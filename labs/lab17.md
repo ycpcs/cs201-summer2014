@@ -38,6 +38,17 @@ You will need to think about how the stack and queue can help you determine whet
 
 Here is an example run (user input in **bold**):
 
+<pre>
+<b>A man, a plan, a cat, a ham, a yak, a yam, a hat, a canal - Panama?</b>
+Palindrome
+<b>Rise to vote, sir</b>
+Palindrome
+<b>Boy howdy!</b>
+Not a palindrome
+<b>quit</b>
+<i>program exits</i>
+</pre>
+
 Requirements and hints
 ======================
 
