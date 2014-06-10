@@ -13,3 +13,4 @@ This page lists the programming assignments.
 > [Assignment 4: Klondike (Solitaire)](assign04.html) | [CS201\_Assign04.zip](CS201_Assign04.zip) | Milestone 1 due Tues, July 1st by 11:59 PM <br> Milestone 2 due Tues, July 15th by 11:59 PM
 > [Assignment 5: Mandelbrot Set Renderer](assign05.html) | [CS201\_Assign05.zip](CS201_Assign05.zip) | Tuesday, July 22nd by 11:59 PM
 > [Assignment 6: Big-O](assign06.html) | n/a | Tuesday, July 29th by 11:59 PM
+> [Assignment 7: Web Crawler](assign07.html) | [CS201\_Assign07.zip](CS201_Assign07.zip) | Friday, Aug 8th by 11:59 PM
