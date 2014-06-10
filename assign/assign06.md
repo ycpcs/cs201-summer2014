@@ -21,7 +21,7 @@ Hints
 
 Don't forget to drop low order terms and constant factors from your big-O bound.
 
-<div class="callout"> **Important Reminder**: If the problem involves nested loops in which the inner loop is dependent on the outer loop, then you will need to analyze the loops together. Use a series to count the total number of iterations of the body of the inner loop. </div>
+<div class="callout"> <b>Important Reminder</b>: If the problem involves nested loops in which the inner loop is dependent on the outer loop, then you will need to analyze the loops together. Use a series to count the total number of iterations of the body of the inner loop. </div>
 
 Submitting
 ==========
