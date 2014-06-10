@@ -34,7 +34,7 @@ Output file written successfully!
 
 The output file generated should be a PNG image file that looks something like this (click to see larger version):
 
-> <a href="images/assign05/output.png"><img style="width: 300; height: 300;" src="images/assign05/output.png" /></a>
+> <a href="images/assign05/output.png"><img style="width: 300px; height: 300px;" src="images/assign05/output.png" /></a>
 
 The exact appearance of the image will depend on how you choose to map the number of iterations at the sampled points to colors. See the next section for details.
 
