@@ -3,9 +3,9 @@ layout: default
 title: "Assignment 3: Angry Gorillas!"
 ---
 
-Milestone 1 due: **Tuesday, June 17th**
+Milestone 1 due: **Thursday, June 19th**
 
-Milestone 2 due: **Tuesday, June 24th**
+Milestone 2 due: **Thursday, June 26th**
 
 Getting Started
 ===============

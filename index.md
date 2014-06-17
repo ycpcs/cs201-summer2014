@@ -23,6 +23,8 @@ Welcome to the website for CS 201, Introduction to Computer Science II, at York 
 
 ## News
 
+* **Jun 17** - You may take Exam 2 in class on Thursday, June 26th, Tuesday, July 1st, or Thursday, July 3rd.
+* **Jun 17** - The due date for Milestones 1 and 2  of [Assignment 3](assign/assign03.html) have been extended to Thursday, June 19th by 11:59 PM and Thursday, June 26th by 11:59 PM (respectively).
 * **Jun 10** - Assignments 5-7 have been posted on the [Assignments](assign/index.html) page.  All of the assignments for the semester have now been posted.
 * **Jun 5** - A first practice exam has been posted on the [Practice Exams](practice/index.html) page.
 * **Jun 5** - All of the labs have been posted on the [Labs](labs/index.html) page.
