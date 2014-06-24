@@ -3,7 +3,7 @@ layout: default
 title: "Lab 4: Text File I/O"
 ---
 
-Start by downloading [CS201\_Lab04.zip](labs/lab04.html) and importing it into Eclipse. You should see a project called **CS201\_Lab04**.
+Start by downloading [CS201\_Lab04.zip](CS201\_Lab04.zip) and importing it into Eclipse. You should see a project called **CS201\_Lab04**.
 
 You will make changes to the class called **Remember**.
 
