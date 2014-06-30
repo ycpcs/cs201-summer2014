@@ -3,7 +3,7 @@ layout: default
 title: "Assignment 4: Klondike (Solitaire)"
 ---
 
-Milestone 1 due **Tuesday, July 1st**
+Milestone 1 due **Thursday, July 3rd**
 
 Milestone 2 due **Tuesday, July 15th**
 
