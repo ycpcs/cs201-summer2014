@@ -32,7 +32,7 @@ mode = Mode.LOADING;
 
 Javadoc comments can use *tags* to describe features of the class, method, or field. For example, a javadoc method comment can use **@param** tags to describe method parameters and a **@return** tag to describe the method's return value. Example javadoc method comment:
 
-{% highlight %}
+{% highlight java %}
 /**
  * Factory method to create an error status message.
  *
