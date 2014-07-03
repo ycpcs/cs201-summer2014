@@ -26,9 +26,9 @@ Java has three kinds of comments.
 mode = Mode.LOADING;
 {% endhighlight %}
 
-**Block comments**: start with <b>/*</b>, end with <b>*/</b>, and may span multiple lines. These are not used very often. Here is the comment above as a block comment:
+**Block comments**: start with <b>/\*</b>, end with <b>\*/</b>, and may span multiple lines. These are not used very often. Here is the comment above as a block comment:
 
-**Javadoc comments**: a Javadoc comment describes a class, method, or field. Javadoc comments begin with <b>/**</b> and end with <b>*/</b>, and (like block comments) may span multiple lines. Each javadoc comment should begin with a description of the class, method, or field.
+**Javadoc comments**: a Javadoc comment describes a class, method, or field. Javadoc comments begin with <b>/\*\*</b> and end with <b>\*/</b>, and (like block comments) may span multiple lines. Each javadoc comment should begin with a description of the class, method, or field.
 
 Javadoc comments can use *tags* to describe features of the class, method, or field. For example, a javadoc method comment can use **@param** tags to describe method parameters and a **@return** tag to describe the method's return value. Example javadoc method comment:
 
@@ -66,9 +66,9 @@ Here are the most commonly-used tags:
 
 > Tag  | Used with  | What it does
 > ---  | ---------  | ------------
-> **@param**  | methods  | specifies name of parameters, brief description of parameter; there should be one @param tag per parameter
+> **@param**  | methods  | specifies name of parameters, brief description of parameter; there should be one **@param** tag per parameter
 > **@return**  | methods  | describes the return value of a method
-> **@author**  | classes  | specifies the name of the author of a class; multiple @author tags can be used if there are multiple authors
+> **@author**  | classes  | specifies the name of the author of a class; multiple **@author** tags can be used if there are multiple authors
 
 What Javadoc comments are for
 -----------------------------
