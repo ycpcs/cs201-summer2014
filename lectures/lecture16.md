@@ -63,9 +63,9 @@ public class LinkedList<E> implements List<E> {
 }
 {% endhighlight %}
 
-Note that although the fields of the **LLNode\<E\>** class are public, we are not violating encapsulation because no code outside of the methods of the **LinkedList\<E\>** class will ever directly access an instance of **LLNode\<E\>**.
+Note that although the fields of the **LLNode&lt;E&gt;** class are public, we are not violating encapsulation because no code outside of the methods of the **LinkedList&lt;E&gt;** class will ever directly access an instance of **LLNode&lt;E&gt;**.
 
-Later in the semester we will investigate in detail how to implement a collection based on a linked list, such as the built-in Java **LinkedList\<E\>** class. For now, it is important to understand how the representation of the underlying data structure---a linked list of nodes---affects the efficiency of the list operations.
+Later in the semester we will investigate in detail how to implement a collection based on a linked list, such as the built-in Java **LinkedList&lt;E&gt;** class. For now, it is important to understand how the representation of the underlying data structure---a linked list of nodes---affects the efficiency of the list operations.
 
 > Operation|Worst-case|Average-case
 > ---------|----------|------------
@@ -81,4 +81,4 @@ The **get(int)** and **set(int, E)** operations now take O(N) in both the worst 
 
 The **remove(int)** method also is O(N) in the worst case and average case, for the same reason as **get** and **set**: it requires a traversal to an arbitrary node of the list.
 
-Interestingly, calling the **remove()** method on an iterator object connected to a **LinkedList\<E\>** is guaranteed to complete in O(1) time. The reason is that an iterator for a **LinkedList\<E\>** object keeps track of which node contains the current element. If it needs to remove the most-recently-returned element, it can do so in a constant number of steps, because it is already "positioned" in the right place in the chain of nodes.
+Interestingly, calling the **remove()** method on an iterator object connected to a **LinkedList&lt;E&gt;** is guaranteed to complete in O(1) time. The reason is that an iterator for a **LinkedList&lt;E&gt;** object keeps track of which node contains the current element. If it needs to remove the most-recently-returned element, it can do so in a constant number of steps, because it is already "positioned" in the right place in the chain of nodes.
