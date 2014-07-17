@@ -86,6 +86,15 @@ Rendering An Image, Saving It
 
 The Java **BufferedImage** class allows you to render an image:
 
+{% highlight java %}
+BufferedImage bufferedImage = new BufferedImage(WIDTH, HEIGHT, BufferedImage.TYPE_INT_ARGB);
+Graphics g = bufferedImage.getGraphics();
+
+// ... use g to perform drawing operations ...
+
+g.dispose();
+{% endhighlight %}
+
 Once the image has been rendered into the **BufferedImage** object, you can write it to a file as follows:
 
 {% highlight java %}
