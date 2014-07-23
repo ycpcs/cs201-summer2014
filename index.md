@@ -5,7 +5,7 @@ title: Home page
 
 # CS 201, Summer 2014
 
-Welcome to the website for CS 201, Introduction to Computer Science II, at York College.  All information about the course will be posted here.
+Welcome to the website for CS 201, Fundamentals of Computer Science II, at York College.  All information about the course will be posted here.
 
 ## Links
 
