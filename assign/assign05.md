@@ -82,7 +82,8 @@ public class MandelbrotTask implements Runnable {
     private int[][] iterCounts;
 
     public MandelbrotTask(double x1, double y1, double x2, double y2,
-                          int startCol, int endCol, int startRow, int endRow) {
+                          int startCol, int endCol, int startRow, int endRow,
+                          int[][] iterCounts) {
         this.x1 = x1;
         this.y1 = y1;
         this.x2 = x2;
