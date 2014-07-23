@@ -68,6 +68,56 @@ z = z.multiply(z).add(c);
 
 This assumes that you have variables **z** and **c** that refer to instances of the **Complex** class.
 
+Creating a task class
+---------------------
+
+You should create a task class that computes the iteration counts for a region of the image.
+
+Here is a suggested skeleton:
+
+{% highlight java %}
+public class MandelbrotTask implements Runnable {
+    private double x1, y1, x2, y2;
+    private int startCol, endCol, startRow, endRow;
+    private int[][] iterCounts;
+
+    public MandelbrotTask(double x1, double y1, double x2, double y2,
+                          int startCol, int endCol, int startRow, int endRow) {
+        this.x1 = x1;
+        this.y1 = y1;
+        this.x2 = x2;
+        this.y2 = y2;
+        this.startCol = startCol;
+        this.endCol = endCol;
+        this.startRow = startRow;
+        this.endRow = endRow;
+        this.iterCounts = iterCounts;
+    }
+
+    public void run() {
+        for (int i = startRow; i < endRow; i++) {
+            for (int j = startCol; j < endCol; j++) {
+                Complex c = getComplex(i, j);
+                int iterCount = computeIterCount(c);
+                iterCounts[i][j] = iterCount;
+            }
+        }
+    }
+
+    // TODO: implement getComplex and computeIterCount methods
+}
+{% endhighlight %}
+
+The idea is that a **MandelbrotTask** object will compute iteration counts for the region of the image with rows from **startRow** (inclusive) to **endRow** (exclusive) and columns from **startCol** (inclusive) to **endCol** (exclusive). The region of the complex plane is specified by **x1**, **y1**, **x2**, and **y2**.  The **iterCounts** array is the single global array used to store the iteration counts for the overall image (where the first dimension is rows and the second dimension is columns).
+
+From the **main** method, you could use a **MandelbrotTask** object to compute all of the iteration counts as follows:
+
+{% highlight java %}
+int[][] iterCounts = new int[HEIGHT][WIDTH];
+MandelbrotTask task = MandelbrotTask(x1, y1, x2, y2, 0, WIDTH, 0, HEIGHT, iterCounts);
+task.run();
+{% endhighlight %}
+
 Rendering the Mandelbrot Set
 ============================
 
@@ -113,7 +163,7 @@ The computation performed by the program can take a fair amount of CPU time. How
 
 For example, you might divide the overall region into quadrants, and use a separate thread to compute the points in each quadrant. Since there are four threads, if you run the program on a computer with 4 CPU cores, then you could see up to a 4 times speedup.
 
-**Suggestion**: use an two-dimensional array of integer values to store the number of iterations for each of the sampled points. Each computation thread can be responsible for a subset of the elements of this array. The program should create the computation threads, start them, and then wait for them to complete (by calling the **join** method). Make sure that your program starts all of the threads before waiting for any of them to complete.
+**Suggestion**: Create multiple **MandelbrotTask** objects, and execute them in multiple threads.
 
 Grading Criteria
 ================
