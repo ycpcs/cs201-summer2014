@@ -3,7 +3,7 @@ layout: default
 title: "CS 201: Syllabus"
 ---
 
-CS 201 - Introduction to Computer Science II
+CS 201 - Fundamentals of Computer Science II
 ============================================
 
 **Summer 2014**

@@ -5,7 +5,7 @@ title: Home page
 
 # CS 201, Summer 2014
 
-Welcome to the website for CS 201, Introduction to Computer Science II, at York College.  All information about the course will be posted here.
+Welcome to the website for CS 201, Fundamentals of Computer Science II, at York College.  All information about the course will be posted here.
 
 ## Links
 
@@ -23,6 +23,7 @@ Welcome to the website for CS 201, Introduction to Computer Science II, at York 
 
 ## News
 
+* **Jul 23** - The due date for [Assignment 5](assign/assign05.html) has been extended to Friday, July 25th by 11:59 PM.
 * **Jun 30** - The due date for Milestone 1 of [Assignment 4](assign/assign04.html) has been extended to Thursday, July 3rd.
 * **Jun 17** - You may take Exam 2 in class on Thursday, June 26th, Tuesday, July 1st, or Thursday, July 3rd.
 * **Jun 17** - The due date for Milestones 1 and 2  of [Assignment 3](assign/assign03.html) have been extended to Thursday, June 19th by 11:59 PM and Thursday, June 26th by 11:59 PM (respectively).
