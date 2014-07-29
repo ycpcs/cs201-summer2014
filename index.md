@@ -23,6 +23,7 @@ Welcome to the website for CS 201, Fundamentals of Computer Science II, at York 
 
 ## News
 
+* **Jul 29** - A second practice exam has been posted on the [Practice Exams](practice/index.html) page.
 * **Jul 23** - The due date for [Assignment 5](assign/assign05.html) has been extended to Friday, July 25th by 11:59 PM.
 * **Jun 30** - The due date for Milestone 1 of [Assignment 4](assign/assign04.html) has been extended to Thursday, July 3rd.
 * **Jun 17** - You may take Exam 2 in class on Thursday, June 26th, Tuesday, July 1st, or Thursday, July 3rd.
