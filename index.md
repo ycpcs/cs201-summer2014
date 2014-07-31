@@ -23,6 +23,7 @@ Welcome to the website for CS 201, Fundamentals of Computer Science II, at York 
 
 ## News
 
+* **Jul 31** - [sortDemo.jar](resources/sortDemo.jar) is a demonstration of the sorting algorithms we will be covering.
 * **Jul 29** - A second practice exam has been posted on the [Practice Exams](practice/index.html) page.
 * **Jul 23** - The due date for [Assignment 5](assign/assign05.html) has been extended to Friday, July 25th by 11:59 PM.
 * **Jun 30** - The due date for Milestone 1 of [Assignment 4](assign/assign04.html) has been extended to Thursday, July 3rd.
