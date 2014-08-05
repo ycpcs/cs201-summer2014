@@ -132,7 +132,25 @@ Hints
 
 In the **makeCanonical** method of the **URITest** class, you will need to extract each component of the URI in order. For example, the components of the URI "foo/bar/baz.html" are "foo", "bar", and "baz.html".
 
-You can do so with the following code
+You can do so with the following code:
+
+{% highlight java %}
+while ( ! uri.equals("") ) {
+
+    int slash = uri.indexOf('/');
+
+    String component;
+    if (slash >= 0) {
+            component = uri.substring(0, slash);
+            uri = uri.substring(slash + 1);
+    } else {
+            component = uri;
+            uri = "";
+    }
+
+    //...do something with the URI component, using a stack...
+}
+{% endhighlight %}
 
 Note that a URI can contain multiple occurrences of the ".." component: e.g.,
 
