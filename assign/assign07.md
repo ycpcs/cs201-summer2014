@@ -121,6 +121,8 @@ Crawling Web Pages
 
 Starting from the start web page, the web crawler should search each web page it encounters for links to other pages. You may assume that any occurrence of text matching the pattern
 
+    href="*...URI of web page...*"
+
 is a link to another page.
 
 The web crawler should maintain a queue of the URIs of web pages that need to be visited. Whenever the web crawler encounters a link to a web page it has not yet scanned, it should add the page's URI to the queue.
